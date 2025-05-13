@@ -75,4 +75,4 @@ def extract_metadata(video_path, output_json="video_metadata.json"):
 
 # Example usage
 if __name__ == "__main__":
-    extract_metadata("your_video.mp4")
+    extract_metadata("n4.mp4")
