@@ -57,7 +57,7 @@ def extract_metadata(video_path, output_json="video_metadata.json"):
             "timestamp": round(timestamp, 3),
             "hash": hash_val,
             "motion_score": round(motion_score, 4),
-            "scene_change": scene_change
+            "scene_change": bool(scene_change)
         })
 
         prev_gray = gray
